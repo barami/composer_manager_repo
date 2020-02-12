@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Module code
+ */
+
+/**
+ * Implements hook_composer_json_alter().
+ */
+function composer_manager_repo_composer_json_alter(&$json) {
+  $json['repositories'][] = array(
+    'type' => 'composer',
+    'url' => 'https://packages.drupal.org/7',
+  );
+}

@@ -1,0 +1,5 @@
+name = Composer Manager repository
+description = Provides composer repository for composer manager of drupal 7.
+core = 7.x
+
+dependencies[] = composer_manager
